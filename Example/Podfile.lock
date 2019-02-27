@@ -1,0 +1,24 @@
+PODS:
+  - Kingfisher (4.10.1)
+  - KJTools_Swift (0.0.1):
+    - Kingfisher
+
+DEPENDENCIES:
+  - Kingfisher
+  - KJTools_Swift (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
+
+EXTERNAL SOURCES:
+  KJTools_Swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  KJTools_Swift: 70d815957b25c19b4f556d9c669fb7ed35798bd7
+
+PODFILE CHECKSUM: c6e64be8f5f626a48d277722b0cfb5bcfe80688a
+
+COCOAPODS: 1.5.3

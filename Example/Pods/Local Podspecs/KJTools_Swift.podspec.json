@@ -1,0 +1,29 @@
+{
+  "name": "KJTools_Swift",
+  "version": "0.0.1",
+  "summary": "KJTools_Swift.工具类",
+  "description": "KJTools_Swift.工具类.xxxxx",
+  "homepage": "https://github.com/puwd/KJTools_Swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "puwd": "puweidongyx@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/puwd/KJTools_Swift.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KJTools_Swift/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*",
+  "frameworks": "Kingfisher",
+  "dependencies": {
+    "Kingfisher": [
+
+    ]
+  }
+}

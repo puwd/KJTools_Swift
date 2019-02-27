@@ -1,0 +1,6 @@
+framework module KJTools_Swift {
+  umbrella header "KJTools_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

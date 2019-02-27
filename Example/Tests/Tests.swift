@@ -1,5 +1,5 @@
 import XCTest
-import KJTools_Swift
+
 
 class Tests: XCTestCase {
     
