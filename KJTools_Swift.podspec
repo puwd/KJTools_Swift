@@ -34,8 +34,8 @@ Pod::Spec.new do |s|
   #   'KJTools_Swift' => ['KJTools_Swift/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*'
-  s.frameworks = 'Kingfisher'
+  # s.public_header_files = 'Pod/Classes/**/*'
+  s.frameworks = 'Kingfisher','UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Kingfisher'
 
