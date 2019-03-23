@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Kingfisher
+//import Kingfisher
 
 extension UIImage {
     
@@ -27,13 +27,13 @@ extension UIImageView {
     /// - Parameters:
     ///   - imageUrl: 网络图片Url
     ///   - placeImageName: 默认图片
-    func loadNetworkImage(WithImageUrl imageUrl:String , placeImageName:String = "placeholder") {
-        kf.setImage(with: URL(string: imageUrl), placeholder: UIImage.init(named: placeImageName), options: [.transition(ImageTransition.fade(1))], progressBlock: { (receivedSize, totalSize) in
-            
-        }) { (image, error, cacheType, imageURL) in
-            
-        }
-    }
+//    func loadNetworkImage(WithImageUrl imageUrl:String , placeImageName:String = "placeholder") {
+//        kf.setImage(with: URL(string: imageUrl), placeholder: UIImage.init(named: placeImageName), options: [.transition(ImageTransition.fade(1))], progressBlock: { (receivedSize, totalSize) in
+//
+//        }) { (image, error, cacheType, imageURL) in
+//
+//        }
+//    }
     
     
     /// 加载本地图片

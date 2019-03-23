@@ -3,6 +3,6 @@ use_frameworks!
 target 'KJTools_Swift_Example' do
   pod 'KJTools_Swift', :path => '../'
   
-  pod 'Kingfisher'
+  # pod 'Kingfisher'
 
 end

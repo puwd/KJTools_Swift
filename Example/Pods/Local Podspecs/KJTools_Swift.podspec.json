@@ -16,16 +16,7 @@
     "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "KJTools_Swift/Classes/**/*",
-  "frameworks": [
-    "Kingfisher",
-    "UIKit"
-  ],
-  "dependencies": {
-    "Kingfisher": [
-
-    ]
-  }
+  "source_files": "KJTools_Swift/Classes/**/*"
 }
