@@ -41,7 +41,7 @@ extension UIView {
     /// 圆角半径(默认0.0)
     ///
     /// - Parameter radius: 圆角
-    func conrnerRadius(_ radius: CGFloat = 0.0) -> UIView {
+    public func conrnerRadius(_ radius: CGFloat = 0.0) -> UIView {
         privateRadius = radius
         return self
     }
@@ -50,7 +50,7 @@ extension UIView {
     /// 圆角方向(默认所有圆角)
     ///
     /// - Parameter corner: 圆角方向
-    func conrnerCorner(_ corner: UIRectCorner = .allCorners) -> UIView {
+    public func conrnerCorner(_ corner: UIRectCorner = .allCorners) -> UIView {
         privateCorner = corner
         return self
     }
@@ -59,7 +59,7 @@ extension UIView {
     /// 边框颜色(默认黑色)
     ///
     /// - Parameter color: 边框颜色
-    func borderColor(_ color: UIColor = .black) -> UIView {
+    public func borderColor(_ color: UIColor = .black) -> UIView {
         privateBorderColor = color
         return self
     }
@@ -68,7 +68,7 @@ extension UIView {
     /// 边框宽度(默认0)
     ///
     /// - Parameter borderWidth: 边框宽度
-    func borderWidth(_ borderWidth: CGFloat = 0.00) -> UIView {
+    public func borderWidth(_ borderWidth: CGFloat = 0.00) -> UIView {
         privateBorderWidth = borderWidth
         return self
     }
@@ -77,7 +77,7 @@ extension UIView {
     /// 阴影颜色(默认黑色)
     ///
     /// - Parameter shadowColor: 阴影颜色
-    func shadowColor(_ shadowColor: UIColor = .clear) -> UIView {
+    public func shadowColor(_ shadowColor: UIColor = .clear) -> UIView {
         privateShadowColor = shadowColor
         return self
     }
@@ -86,7 +86,7 @@ extension UIView {
     /// 阴影偏移值(默认无偏移)
     ///
     /// - Parameter shadowOffset: 阴影偏移值
-    func shadowOffset(_ shadowOffset: CGSize = .zero) -> UIView {
+    public func shadowOffset(_ shadowOffset: CGSize = .zero) -> UIView {
         privateShadowOffset = shadowOffset
         return self
     }
@@ -95,7 +95,7 @@ extension UIView {
     /// 阴影扩散范围(默认0)
     ///
     /// - Parameter shadowRadius: 阴影扩散范围
-    func shadowRadius(_ shadowRadius: CGFloat = 0.0) -> UIView {
+    public func shadowRadius(_ shadowRadius: CGFloat = 0.0) -> UIView {
         privateShadowRadius = shadowRadius
         return self
     }
@@ -104,7 +104,7 @@ extension UIView {
     /// 阴影的透明度(默认为0)
     ///
     /// - Parameter shadowOpacity: 阴影的透明度
-    func shadowOpacity(_ shadowOpacity: CGFloat = 0.0) -> UIView {
+    public func shadowOpacity(_ shadowOpacity: CGFloat = 0.0) -> UIView {
         privateshadowOpacity = shadowOpacity
         return self
     }
@@ -113,7 +113,7 @@ extension UIView {
     /// 贝塞尔路径 默认 nil (有值时，radius属性将失效)
     ///
     /// - Parameter path: 路径
-    func bezierPath(_ path: UIBezierPath) -> UIView {
+    public func bezierPath(_ path: UIBezierPath) -> UIView {
         privateBezierPath = path
         return self
     }
@@ -121,7 +121,7 @@ extension UIView {
     /// 为其他视图添加(设置圆角时，会去获取视图的bounds属性，如果此时获取不到，则需要传入该参数，默认为 nil，如果传入该参数，则不会去回去视图的bounds属性了)
     ///
     /// - Parameter rect: 视图Bounds
-    func viewBounds(_ rect: CGRect = .zero) -> UIView {
+    public func viewBounds(_ rect: CGRect = .zero) -> UIView {
         privateViewBounds = rect
         return self
     }
@@ -129,13 +129,13 @@ extension UIView {
     
     /// 显示
     ///
-    func showVisual() -> Void {
+    public func showVisual() -> Void {
         /// 阴影或圆角、边框
         addShadowAndRadius()
     }
     
     /// 清空所有设置
-    func clerVisual () {
+    public func clerVisual () {
         
         self.layer.removeFromSuperlayer()
         
@@ -281,14 +281,14 @@ extension UIView {
 
 
 //MARK: - UIView frame
-protocol MySize {}
+public protocol MySize {}
 
 extension UIView: MySize {}
 
 extension MySize where Self: UIView {
     
     /// Shortcut for frame.origin.x
-    var x : CGFloat {
+    public var x : CGFloat {
         get {
             return self.frame.origin.x
         } set {
@@ -299,7 +299,7 @@ extension MySize where Self: UIView {
     }
     
     /// Shortcut for frame.origin.y
-    var y : CGFloat {
+    public var y : CGFloat {
         get {
             return self.frame.origin.y
         } set {
@@ -310,7 +310,7 @@ extension MySize where Self: UIView {
     }
     
     /// Shortcut for frame.size.width
-    var width: CGFloat {
+    public var width: CGFloat {
         get {
             return self.frame.width
         } set {
@@ -321,7 +321,7 @@ extension MySize where Self: UIView {
     }
     
     /// Shortcut for frame.size.height
-    var height: CGFloat {
+    public var height: CGFloat {
         get {
             return self.frame.height
         } set {
@@ -332,7 +332,7 @@ extension MySize where Self: UIView {
     }
     
     /// Shortcut for frame.origin.x + frame.size.width
-    var right : CGFloat {
+    public var right : CGFloat {
         get {
             return self.frame.origin.x + self.frame.size.width
         } set {
@@ -341,7 +341,7 @@ extension MySize where Self: UIView {
     }
     
     /// Shortcut for frame.origin.y + frame.size.height
-    var bottom : CGFloat {
+    public var bottom : CGFloat {
         get {
             return self.frame.origin.y + self.frame.size.height
         } set {
@@ -351,7 +351,7 @@ extension MySize where Self: UIView {
     }
     
     /// Shortcut for center.x
-    var centerX: CGFloat {
+    public var centerX: CGFloat {
         get {
             return self.center.x
         } set {
@@ -362,7 +362,7 @@ extension MySize where Self: UIView {
     }
     
     /// Shortcut for center.y
-    var centerY: CGFloat {
+    public var centerY: CGFloat {
         get {
             return self.center.y
         } set {
@@ -373,7 +373,7 @@ extension MySize where Self: UIView {
     }
     
     /// Shortcut for frame.origin
-    var origin: CGPoint {
+    public var origin: CGPoint {
         get {
             return self.frame.origin
         } set {
@@ -384,7 +384,7 @@ extension MySize where Self: UIView {
     }
     
     /// Shortcut for frame.size
-    var size: CGSize {
+    public var size: CGSize {
         get {
             return self.frame.size
         } set {
