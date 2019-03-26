@@ -15,7 +15,7 @@ extension UIImage {
     ///
     /// - Parameter imageName: 图片名称
     public class func loadLocalImage(WithImageName imageName:String) -> UIImage {
-        return UIImage.init(named: imageName ?? "") ?? UIImage.init()
+        return UIImage.init(named: imageName) ?? UIImage.init()
     }
 }
 

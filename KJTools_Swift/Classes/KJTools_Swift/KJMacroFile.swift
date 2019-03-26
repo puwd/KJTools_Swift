@@ -17,7 +17,7 @@ public let StatusHeight = UIApplication.shared.statusBarFrame.size.height
 /// 是否为IphoneX(IPhone XR、IPhone XS、IPhone Max)
 public let IsIphoneX:Bool = StatusHeight == 44 ? true : false
 /// 底部间隙
-public let BottomSpace = IsIphoneX ? 34 : 0
+public let BottomSpace = CGFloat(IsIphoneX ? 34 : 0)
 /// 获取系统版本
 public let iOSVersion = UIDevice.current.systemVersion
 /// 屏幕比例尺寸

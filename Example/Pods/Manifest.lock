@@ -1,5 +1,5 @@
 PODS:
-  - KJTools_Swift (0.0.1)
+  - KJTools_Swift (0.0.1.1)
 
 DEPENDENCIES:
   - KJTools_Swift (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KJTools_Swift: 4fa7984de238aa5c191bf221a7ca159e63596b47
+  KJTools_Swift: 8861a94283f4bfca84485f3b42ac17887132f297
 
 PODFILE CHECKSUM: 2886a4077173e0aacf0e959528adc3792c23a8b6
 

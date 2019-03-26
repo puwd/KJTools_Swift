@@ -204,7 +204,7 @@ extension UIView {
             if (self.backgroundColor != nil) {
                 maskLayer.fillColor = self.backgroundColor?.cgColor
             } else {
-                maskLayer.fillColor = UIColor.clear.cgColor
+                maskLayer.fillColor = UIColor.white.cgColor
             }
             // 边线颜色
             maskLayer.strokeColor = privateBorderColor.cgColor
