@@ -3,6 +3,8 @@ use_frameworks!
 target 'KJTools_Swift_Example' do
   pod 'KJTools_Swift', :path => '../'
   
+#  --use-libraries --allow-warnings
+
   # pod 'Kingfisher'
 
 end

@@ -1,6 +1,6 @@
 {
   "name": "KJTools_Swift",
-  "version": "0.0.1.1",
+  "version": "0.0.1.3",
   "summary": "KJTools_Swift.工具类",
   "description": "KJTools_Swift.工具类.xxxxx",
   "homepage": "https://github.com/puwd/KJTools_Swift",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/puwd/KJTools_Swift.git",
-    "tag": "0.0.1.1"
+    "tag": "0.0.1.3"
   },
   "platforms": {
     "ios": "9.0"
