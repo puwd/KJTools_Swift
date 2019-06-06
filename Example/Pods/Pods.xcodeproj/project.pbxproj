@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B0D1FF8DC3EE0D82FACD032A65D4798 /* KJTools_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BF3CE8A7E4E8855A62CB80F5962470 /* KJTools_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		293F0E52C5EA745615FCAA6AD4EB7D9D /* KJViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBB10F03C4EB399B14104C53CC4123 /* KJViewExtension.swift */; };
-		368BEB866AE49542128BC6C750C8B945 /* KJStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A4B8D15D9FB3DF5A663C96DA7B4CFA /* KJStringExtension.swift */; };
-		4EE2CDCD8FCBE1AF9DBCEE8445EAFE73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		7B512356B78475D06568BA7B05AC018A /* KJMacroFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FF2BDAF59E94F171993C18DB962B55 /* KJMacroFile.swift */; };
-		9839662EAA9BB17D1C104D7721DE7BB4 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5235E3ADCC694751BE705642D3371F2 /* UIColorExtension.swift */; };
-		AEDB509E09868FD66E8740BCD9076A8F /* KJTools_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D065FBF3171A1C84691EBBE16090C8 /* KJTools_Swift-dummy.m */; };
+		141C06FAB7B46759EC0B610C0DF27575 /* KJViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7813C40F03FB9AAC230296A2D120DE /* KJViewExtension.swift */; };
+		36A69E818E41B5E2E186816740205B07 /* KJTools_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05652D4F959879818ECA1921268EE547 /* KJTools_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C2BE20721A6651751D64251D29763D2 /* KJStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E192CBFEC35E5F1271225EA66D8F5F41 /* KJStringExtension.swift */; };
+		6FC86EEA88C4E4526361100DAFB73B47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		713E44B91E5910B3038BB3AB1216260B /* KJMacroFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334A1497EB447DE1B834A89DF62BA908 /* KJMacroFile.swift */; };
+		77FD0397F93D3FC4575F931C73893F90 /* ACShadeViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CD47E4C9E069901FAACDF00CF0A5E4 /* ACShadeViewExtension.swift */; };
+		A57A3A27BE80C28BA79C56BFB998EF79 /* KJImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01395F2998008C7B59DBB175B8227C7 /* KJImageExtension.swift */; };
+		B94F1AAF59E157BFFE69BB0FB3AEB369 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA258200B16FC85F0DC6BD619427B23 /* UIColorExtension.swift */; };
 		C8EC40B9B2B59BD1EB2E63D1D50D5445 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		CB27E3B0235F50BA5F1559F839CD21AB /* Pods-KJTools_Swift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9752B41A46E3A91DC3C36065FF8DE9 /* Pods-KJTools_Swift_Example-dummy.m */; };
 		D2C63550028187EC4F5B02947379BFEE /* Pods-KJTools_Swift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 456B307E4CE23EDE394177CD83C0B0F4 /* Pods-KJTools_Swift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D504AC386B8517659C6B635BF30D6E78 /* ACShadeViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45E754F618904B5352D49BFE0EF8D9 /* ACShadeViewExtension.swift */; };
-		E0E2889285F9B367DD879AB1F24F004B /* KJImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BE5CDDBD994A73A324DAEFF1EA138 /* KJImageExtension.swift */; };
+		D41C7370205B229D79EF71523AA4EFF6 /* KJTools_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B78937B0D1F4C3C2953DF6116F2D5F6 /* KJTools_Swift-dummy.m */; };
+		E01C487914B8514A9C5761587E76D4C5 /* KJDateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2BBC4CCF0D3B2ECB99263B587FE0F /* KJDateObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,38 +27,39 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 75C11EE4D387E6BDA5104CBAC0315433;
+			remoteGlobalIDString = 5CAFFDCACC38D80531A25B84AA53C950;
 			remoteInfo = KJTools_Swift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03FF2BDAF59E94F171993C18DB962B55 /* KJMacroFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KJMacroFile.swift; path = KJTools_Swift/Classes/KJTools_Swift/KJMacroFile.swift; sourceTree = "<group>"; };
+		05652D4F959879818ECA1921268EE547 /* KJTools_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KJTools_Swift-umbrella.h"; sourceTree = "<group>"; };
 		05BE36804C1B78FA6D35B0296822FCD0 /* Pods-KJTools_Swift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KJTools_Swift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0B45E754F618904B5352D49BFE0EF8D9 /* ACShadeViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ACShadeViewExtension.swift; path = KJTools_Swift/Classes/KJTools_Swift/ACShadeViewExtension.swift; sourceTree = "<group>"; };
-		198BF8D5DC7FAA48375C39D7FD7E7294 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		20BEAF67730089FBA6594D266A9BFE36 /* KJTools_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KJTools_Swift-prefix.pch"; sourceTree = "<group>"; };
 		22F6866B04D929BF339F0D273D941653 /* Pods-KJTools_Swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KJTools_Swift_Example.modulemap"; sourceTree = "<group>"; };
 		252B00338DB5D25BE03A9BEE8FC4CEB9 /* Pods-KJTools_Swift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KJTools_Swift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		30D9DE5B5B08E9C9EF8C7D6B7E850AE7 /* KJTools_Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KJTools_Swift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		31D065FBF3171A1C84691EBBE16090C8 /* KJTools_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KJTools_Swift-dummy.m"; sourceTree = "<group>"; };
+		334A1497EB447DE1B834A89DF62BA908 /* KJMacroFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KJMacroFile.swift; path = KJTools_Swift/Classes/KJTools_Swift/KJMacroFile.swift; sourceTree = "<group>"; };
+		3CB2BBC4CCF0D3B2ECB99263B587FE0F /* KJDateObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KJDateObject.swift; path = KJTools_Swift/Classes/KJTools_Swift/KJDateObject.swift; sourceTree = "<group>"; };
 		43C64DF2ED494BEC78D6C18FC0091DBE /* Pods-KJTools_Swift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KJTools_Swift_Example-Info.plist"; sourceTree = "<group>"; };
 		456B307E4CE23EDE394177CD83C0B0F4 /* Pods-KJTools_Swift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KJTools_Swift_Example-umbrella.h"; sourceTree = "<group>"; };
 		4C41F427AC800EE797449B81311DE240 /* Pods-KJTools_Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KJTools_Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		53508EB6B1148614BE639E510CC98AFB /* KJTools_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KJTools_Swift.modulemap; sourceTree = "<group>"; };
+		4CC9B7C397E0082E1A37FD8D7C5C2EAD /* KJTools_Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KJTools_Swift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4F7813C40F03FB9AAC230296A2D120DE /* KJViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KJViewExtension.swift; path = KJTools_Swift/Classes/KJTools_Swift/KJViewExtension.swift; sourceTree = "<group>"; };
+		5ADB33B5332478701E7A77773E10CF7A /* KJTools_Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KJTools_Swift.xcconfig; sourceTree = "<group>"; };
 		60C39B5FC68FCCC90F24AA6FDCC71918 /* Pods-KJTools_Swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KJTools_Swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6332F65CF081D3418BDAB14F390B108E /* KJTools_Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KJTools_Swift.xcconfig; sourceTree = "<group>"; };
-		66BBB10F03C4EB399B14104C53CC4123 /* KJViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KJViewExtension.swift; path = KJTools_Swift/Classes/KJTools_Swift/KJViewExtension.swift; sourceTree = "<group>"; };
+		7BFCF8833311169647902FA86757560F /* KJTools_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KJTools_Swift.modulemap; sourceTree = "<group>"; };
+		8B78937B0D1F4C3C2953DF6116F2D5F6 /* KJTools_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KJTools_Swift-dummy.m"; sourceTree = "<group>"; };
+		911F53D26C0F871AB0C2B0724439DC16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7CF2C75C31F84B74527440214EAEFB3 /* KJTools_Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KJTools_Swift-Info.plist"; sourceTree = "<group>"; };
 		AA9752B41A46E3A91DC3C36065FF8DE9 /* Pods-KJTools_Swift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KJTools_Swift_Example-dummy.m"; sourceTree = "<group>"; };
+		ABA258200B16FC85F0DC6BD619427B23 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = KJTools_Swift/Classes/KJTools_Swift/UIColorExtension.swift; sourceTree = "<group>"; };
 		BE0BF8B366AD081C16361949225C8BDA /* Pods_KJTools_Swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KJTools_Swift_Example.framework; path = "Pods-KJTools_Swift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5235E3ADCC694751BE705642D3371F2 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = KJTools_Swift/Classes/KJTools_Swift/UIColorExtension.swift; sourceTree = "<group>"; };
-		C5BF3CE8A7E4E8855A62CB80F5962470 /* KJTools_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KJTools_Swift-umbrella.h"; sourceTree = "<group>"; };
-		C6A4B8D15D9FB3DF5A663C96DA7B4CFA /* KJStringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KJStringExtension.swift; path = KJTools_Swift/Classes/KJTools_Swift/KJStringExtension.swift; sourceTree = "<group>"; };
+		C01395F2998008C7B59DBB175B8227C7 /* KJImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KJImageExtension.swift; path = KJTools_Swift/Classes/KJTools_Swift/KJImageExtension.swift; sourceTree = "<group>"; };
+		C993C4AFCE8B55675925B18219E635B6 /* KJTools_Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KJTools_Swift-Info.plist"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D2CFB182B240C46FEC9CD1E3E2A2A62D /* KJTools_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KJTools_Swift-prefix.pch"; sourceTree = "<group>"; };
-		E18BE5CDDBD994A73A324DAEFF1EA138 /* KJImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KJImageExtension.swift; path = KJTools_Swift/Classes/KJTools_Swift/KJImageExtension.swift; sourceTree = "<group>"; };
-		EB520D57259E1D65B41AF763D765FE1D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E192CBFEC35E5F1271225EA66D8F5F41 /* KJStringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KJStringExtension.swift; path = KJTools_Swift/Classes/KJTools_Swift/KJStringExtension.swift; sourceTree = "<group>"; };
+		F54F9739F84C2C7E0723C714275C0F45 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F5CD47E4C9E069901FAACDF00CF0A5E4 /* ACShadeViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ACShadeViewExtension.swift; path = KJTools_Swift/Classes/KJTools_Swift/ACShadeViewExtension.swift; sourceTree = "<group>"; };
 		F9EC9244759AC1B2657583D6A13BD047 /* Pods-KJTools_Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KJTools_Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FB96E6262AD6C24A14A1B255DD5105EE /* KJTools_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KJTools_Swift.framework; path = KJTools_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -71,31 +73,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1BC71C11483C1B20FFD1778196FC729 /* Frameworks */ = {
+		B389876DA29641788FF8BCA895070D9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EE2CDCD8FCBE1AF9DBCEE8445EAFE73 /* Foundation.framework in Frameworks */,
+				6FC86EEA88C4E4526361100DAFB73B47 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1FBBB4F72F79D1A97A3B8E635D349F97 /* KJTools_Swift */ = {
+		1BC993BF7EA9F86A9BA1ECDDD939DCB0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0B45E754F618904B5352D49BFE0EF8D9 /* ACShadeViewExtension.swift */,
-				E18BE5CDDBD994A73A324DAEFF1EA138 /* KJImageExtension.swift */,
-				03FF2BDAF59E94F171993C18DB962B55 /* KJMacroFile.swift */,
-				C6A4B8D15D9FB3DF5A663C96DA7B4CFA /* KJStringExtension.swift */,
-				66BBB10F03C4EB399B14104C53CC4123 /* KJViewExtension.swift */,
-				C5235E3ADCC694751BE705642D3371F2 /* UIColorExtension.swift */,
-				6103E978B7922407D8562FE14A021E57 /* Pod */,
-				9BBEC7B19017FFB3925D6BA574EC8C00 /* Support Files */,
+				4CC9B7C397E0082E1A37FD8D7C5C2EAD /* KJTools_Swift.podspec */,
+				911F53D26C0F871AB0C2B0724439DC16 /* LICENSE */,
+				F54F9739F84C2C7E0723C714275C0F45 /* README.md */,
 			);
-			name = KJTools_Swift;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2B7D0AE5688DA67A0A0BF9E72DCD7178 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BFCF8833311169647902FA86757560F /* KJTools_Swift.modulemap */,
+				5ADB33B5332478701E7A77773E10CF7A /* KJTools_Swift.xcconfig */,
+				8B78937B0D1F4C3C2953DF6116F2D5F6 /* KJTools_Swift-dummy.m */,
+				C993C4AFCE8B55675925B18219E635B6 /* KJTools_Swift-Info.plist */,
+				20BEAF67730089FBA6594D266A9BFE36 /* KJTools_Swift-prefix.pch */,
+				05652D4F959879818ECA1921268EE547 /* KJTools_Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KJTools_Swift";
 			sourceTree = "<group>";
 		};
 		34624D83A4696243677FD456CFB83772 /* Pods-KJTools_Swift_Example */ = {
@@ -124,16 +134,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6103E978B7922407D8562FE14A021E57 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				30D9DE5B5B08E9C9EF8C7D6B7E850AE7 /* KJTools_Swift.podspec */,
-				EB520D57259E1D65B41AF763D765FE1D /* LICENSE */,
-				198BF8D5DC7FAA48375C39D7FD7E7294 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		673D538A1EF03765518CBDAB84101078 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,10 +142,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		98C2BF68A35805CE6D7BD7055826D717 /* Development Pods */ = {
+		74E49EDDD6A0E72F6EAC7EA1BA406484 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1FBBB4F72F79D1A97A3B8E635D349F97 /* KJTools_Swift */,
+				DF5B2DE47910DAD49AA708B58AAB37E2 /* KJTools_Swift */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -158,25 +158,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9BBEC7B19017FFB3925D6BA574EC8C00 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				53508EB6B1148614BE639E510CC98AFB /* KJTools_Swift.modulemap */,
-				6332F65CF081D3418BDAB14F390B108E /* KJTools_Swift.xcconfig */,
-				31D065FBF3171A1C84691EBBE16090C8 /* KJTools_Swift-dummy.m */,
-				A7CF2C75C31F84B74527440214EAEFB3 /* KJTools_Swift-Info.plist */,
-				D2CFB182B240C46FEC9CD1E3E2A2A62D /* KJTools_Swift-prefix.pch */,
-				C5BF3CE8A7E4E8855A62CB80F5962470 /* KJTools_Swift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KJTools_Swift";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				98C2BF68A35805CE6D7BD7055826D717 /* Development Pods */,
+				74E49EDDD6A0E72F6EAC7EA1BA406484 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				587ACD32BE3EBDD7F76EC0033B99C601 /* Products */,
 				673D538A1EF03765518CBDAB84101078 /* Targets Support Files */,
@@ -191,14 +177,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DF5B2DE47910DAD49AA708B58AAB37E2 /* KJTools_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F5CD47E4C9E069901FAACDF00CF0A5E4 /* ACShadeViewExtension.swift */,
+				3CB2BBC4CCF0D3B2ECB99263B587FE0F /* KJDateObject.swift */,
+				C01395F2998008C7B59DBB175B8227C7 /* KJImageExtension.swift */,
+				334A1497EB447DE1B834A89DF62BA908 /* KJMacroFile.swift */,
+				E192CBFEC35E5F1271225EA66D8F5F41 /* KJStringExtension.swift */,
+				4F7813C40F03FB9AAC230296A2D120DE /* KJViewExtension.swift */,
+				ABA258200B16FC85F0DC6BD619427B23 /* UIColorExtension.swift */,
+				1BC993BF7EA9F86A9BA1ECDDD939DCB0 /* Pod */,
+				2B7D0AE5688DA67A0A0BF9E72DCD7178 /* Support Files */,
+			);
+			name = KJTools_Swift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		733B4F1F5C4169CF316A46467A2303BD /* Headers */ = {
+		98169B332C8D3FCE8BB25A84CEDDA0F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B0D1FF8DC3EE0D82FACD032A65D4798 /* KJTools_Swift-umbrella.h in Headers */,
+				36A69E818E41B5E2E186816740205B07 /* KJTools_Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,14 +216,14 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		75C11EE4D387E6BDA5104CBAC0315433 /* KJTools_Swift */ = {
+		5CAFFDCACC38D80531A25B84AA53C950 /* KJTools_Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AA38A4E3A1F9ACBEFC8CCD6EA7995C6 /* Build configuration list for PBXNativeTarget "KJTools_Swift" */;
+			buildConfigurationList = 254708DF76A12514C5AC0659A4828EC7 /* Build configuration list for PBXNativeTarget "KJTools_Swift" */;
 			buildPhases = (
-				733B4F1F5C4169CF316A46467A2303BD /* Headers */,
-				2BEDCDF59E70A3B4D2DF164543CA7C5C /* Sources */,
-				E1BC71C11483C1B20FFD1778196FC729 /* Frameworks */,
-				3FFF99FCC2907D90233AF74B62F5E6B7 /* Resources */,
+				98169B332C8D3FCE8BB25A84CEDDA0F6 /* Headers */,
+				4026102E2D987632983588EEABBE6D07 /* Sources */,
+				B389876DA29641788FF8BCA895070D9F /* Frameworks */,
+				AD9596B44E4AD4C9A296DFE252741998 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -271,21 +274,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				75C11EE4D387E6BDA5104CBAC0315433 /* KJTools_Swift */,
+				5CAFFDCACC38D80531A25B84AA53C950 /* KJTools_Swift */,
 				D0FCD45169C722D811C9CF69A310B334 /* Pods-KJTools_Swift_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3FFF99FCC2907D90233AF74B62F5E6B7 /* Resources */ = {
+		AC91626EEDE4AA0AE81302590172C7C8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC91626EEDE4AA0AE81302590172C7C8 /* Resources */ = {
+		AD9596B44E4AD4C9A296DFE252741998 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,17 +298,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2BEDCDF59E70A3B4D2DF164543CA7C5C /* Sources */ = {
+		4026102E2D987632983588EEABBE6D07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D504AC386B8517659C6B635BF30D6E78 /* ACShadeViewExtension.swift in Sources */,
-				E0E2889285F9B367DD879AB1F24F004B /* KJImageExtension.swift in Sources */,
-				7B512356B78475D06568BA7B05AC018A /* KJMacroFile.swift in Sources */,
-				368BEB866AE49542128BC6C750C8B945 /* KJStringExtension.swift in Sources */,
-				AEDB509E09868FD66E8740BCD9076A8F /* KJTools_Swift-dummy.m in Sources */,
-				293F0E52C5EA745615FCAA6AD4EB7D9D /* KJViewExtension.swift in Sources */,
-				9839662EAA9BB17D1C104D7721DE7BB4 /* UIColorExtension.swift in Sources */,
+				77FD0397F93D3FC4575F931C73893F90 /* ACShadeViewExtension.swift in Sources */,
+				E01C487914B8514A9C5761587E76D4C5 /* KJDateObject.swift in Sources */,
+				A57A3A27BE80C28BA79C56BFB998EF79 /* KJImageExtension.swift in Sources */,
+				713E44B91E5910B3038BB3AB1216260B /* KJMacroFile.swift in Sources */,
+				5C2BE20721A6651751D64251D29763D2 /* KJStringExtension.swift in Sources */,
+				D41C7370205B229D79EF71523AA4EFF6 /* KJTools_Swift-dummy.m in Sources */,
+				141C06FAB7B46759EC0B610C0DF27575 /* KJViewExtension.swift in Sources */,
+				B94F1AAF59E157BFFE69BB0FB3AEB369 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,15 +327,15 @@
 		CD2804F749B5A9D03CD100E8B1DEF4FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KJTools_Swift;
-			target = 75C11EE4D387E6BDA5104CBAC0315433 /* KJTools_Swift */;
+			target = 5CAFFDCACC38D80531A25B84AA53C950 /* KJTools_Swift */;
 			targetProxy = 093BEED1BD3A83373424E193695C0BD0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3B2AAB6F2CBBC82DCD21E6501E33C756 /* Release */ = {
+		2E1CE7934276E6B7063DABFD225B3CCB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6332F65CF081D3418BDAB14F390B108E /* KJTools_Swift.xcconfig */;
+			baseConfigurationReference = 5ADB33B5332478701E7A77773E10CF7A /* KJTools_Swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -394,37 +398,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		869D5247EFF9081B0FC867F716CFDCAE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6332F65CF081D3418BDAB14F390B108E /* KJTools_Swift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KJTools_Swift/KJTools_Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KJTools_Swift/KJTools_Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KJTools_Swift/KJTools_Swift.modulemap";
-				PRODUCT_MODULE_NAME = KJTools_Swift;
-				PRODUCT_NAME = KJTools_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		9C47D16D985F9C3E6277B07242A7D1C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -523,6 +496,37 @@
 			};
 			name = Debug;
 		};
+		ED0E9116D82C20CE8E122989C0F48672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ADB33B5332478701E7A77773E10CF7A /* KJTools_Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KJTools_Swift/KJTools_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KJTools_Swift/KJTools_Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KJTools_Swift/KJTools_Swift.modulemap";
+				PRODUCT_MODULE_NAME = KJTools_Swift;
+				PRODUCT_NAME = KJTools_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -586,20 +590,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		254708DF76A12514C5AC0659A4828EC7 /* Build configuration list for PBXNativeTarget "KJTools_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0E9116D82C20CE8E122989C0F48672 /* Debug */,
+				2E1CE7934276E6B7063DABFD225B3CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
 				F232B5ECA11A71BFA199A229B323F454 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5AA38A4E3A1F9ACBEFC8CCD6EA7995C6 /* Build configuration list for PBXNativeTarget "KJTools_Swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				869D5247EFF9081B0FC867F716CFDCAE /* Debug */,
-				3B2AAB6F2CBBC82DCD21E6501E33C756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

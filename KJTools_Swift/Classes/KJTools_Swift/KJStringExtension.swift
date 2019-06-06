@@ -115,31 +115,76 @@ extension String {
     
     
     
-//    /// 获取文本高度
-//    ///
-//    /// - Parameters:
-//    ///   - font: 字体大小
-//    ///   - maxWidth: 最大宽度
-//    public func getTextHeight(WithFont font: UIFont = UIFont.systemFont(ofSize: 15), maxWidth: CGFloat) -> CGFloat {
-//        let normalText: String = self
-//        let size = CGSize.init(width: maxWidth, height: 1000)
-//        let dic = NSDictionary(object: font, forKey: NSAttributedString.Key.font as NSCopying)
-//        let stringSize = normalText.boundingRect(with: size, options: .usesLineFragmentOrigin, attributes: dic as? [NSAttributedString.Key : Any], context:nil).size
-//        return stringSize.height
-//    }
-
+    //    /// 获取文本高度
+    //    ///
+    //    /// - Parameters:
+    //    ///   - font: 字体大小
+    //    ///   - maxWidth: 最大宽度
+    //    public func getTextHeight(WithFont font: UIFont = UIFont.systemFont(ofSize: 15), maxWidth: CGFloat) -> CGFloat {
+    //        let normalText: String = self
+    //        let size = CGSize.init(width: maxWidth, height: 1000)
+    //        let dic = NSDictionary(object: font, forKey: NSAttributedString.Key.font as NSCopying)
+    //        let stringSize = normalText.boundingRect(with: size, options: .usesLineFragmentOrigin, attributes: dic as? [NSAttributedString.Key : Any], context:nil).size
+    //        return stringSize.height
+    //    }
+    
     
     /// 获取文本宽度
     ///
     /// - Parameters:
     ///   - font: 字体大小
     ///   - maxHeight: 最大高度
-//    public func getTextWidth(WithFont font: UIFont = UIFont.systemFont(ofSize: 15), maxHeight: CGFloat) -> CGFloat {
-//        let normalText: String = self
-//        let size = CGSize(width: 1000, height: maxHeight)
-//        let dic = NSDictionary(object: font, forKey: NSAttributedString.Key.font as NSCopying)
-//        let stringSize = normalText.boundingRect(with: size, options: .usesLineFragmentOrigin, attributes: dic as? [NSAttributedString.Key : Any], context:nil).size
-//        return stringSize.width
-//    }
+    //    public func getTextWidth(WithFont font: UIFont = UIFont.systemFont(ofSize: 15), maxHeight: CGFloat) -> CGFloat {
+    //        let normalText: String = self
+    //        let size = CGSize(width: 1000, height: maxHeight)
+    //        let dic = NSDictionary(object: font, forKey: NSAttributedString.Key.font as NSCopying)
+    //        let stringSize = normalText.boundingRect(with: size, options: .usesLineFragmentOrigin, attributes: dic as? [NSAttributedString.Key : Any], context:nil).size
+    //        return stringSize.width
+    //    }
+    
+}
+
+public struct AttributedModel {
+    /// 默认文本
+    var normalString: String = ""
+    /// 默认字体大小
+    var normalFontSize: CGFloat = 15.0
+    /// 默认字体颜色
+    var normalTextColor: UIColor = UIColor.white
+    /// 高亮文本
+    var highLightString: String = ""
+    /// 高亮字体大小
+    var highLightFontSize: CGFloat = 15.0
+    /// 高亮字体颜色
+    var highLightTextColor: UIColor = UIColor.white
+}
+
+/// 富文本
+extension NSMutableAttributedString {
+    
+    public static func attributedString(_ model: AttributedModel) -> NSMutableAttributedString {
+        //定义富文本即有格式的字符串
+        let attributedStrM : NSMutableAttributedString = NSMutableAttributedString()
+        let strings = model.normalString.components(separatedBy: model.highLightString)
+        
+        for i in 0..<strings.count {
+            let item = strings[i]
+            let dict = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: model.normalFontSize),
+                        NSAttributedString.Key.foregroundColor: model.normalTextColor]
+            
+            let content = NSAttributedString(string: item, attributes: dict)
+            attributedStrM.append(content)
+            
+            if i != strings.count - 1 {
+                let dict1 = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: model.highLightFontSize),
+                             NSAttributedString.Key.foregroundColor: model.highLightTextColor]
+                
+                let content2 = NSAttributedString(string: model.highLightString,
+                                                  attributes: dict1)
+                attributedStrM.append(content2)
+            }
+        }
+        return attributedStrM
+    }
     
 }
