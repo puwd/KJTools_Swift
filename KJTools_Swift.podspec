@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KJTools_Swift'
-  s.version          = '0.0.1.3'
+  s.version          = '0.0.1.2'
   s.summary          = 'KJTools_Swift.工具类'
 
 # This description is used to generate tags and improve search results.
