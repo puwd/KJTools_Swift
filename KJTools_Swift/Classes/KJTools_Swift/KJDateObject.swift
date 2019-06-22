@@ -8,7 +8,7 @@
 import UIKit
 
 
-class KJDateObject: NSObject {
+public class KJDateObject: NSObject {
     
     
     /// 获取当前系统时间

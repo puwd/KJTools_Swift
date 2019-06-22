@@ -7,4 +7,7 @@ target 'KJTools_Swift_Example' do
 
   # pod 'Kingfisher'
 
+  #  CocoaPods 给每个库单独指定 Swift 版本教程
+  #  https://www.jianshu.com/p/aa8bcf3897a0
+
 end
